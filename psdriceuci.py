@@ -10,7 +10,9 @@ from sklearn.svm import SVC
 st.title("""DATA RICE CAMMEO AND OSMANCIK""")
 st.write("210411100066 - Nabila Atira Qurratul Aini - Proyek Sains Data A")
 
-dataset_description, data_file, preprocessing, svm, inputan = st.tabs(["Dataset Description", "Data File", "Preprocessing", "Support Vector Machine", "Inputan Data"])
+# Mengasumsikan 'st' adalah instansi Streamlit
+tabs = st.tabs(["Dataset Description", "Data File", "Preprocessing", "Support Vector Machine", "Inputan Data"])
+dataset_description, data_file, preprocessing, svm, inputan = tabs
 
 with dataset_description:
     st.write("### DESKRIPSI DATASET")
