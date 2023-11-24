@@ -28,7 +28,7 @@ with dataset_description:
     st.write("- Class atau Kelas : Kelas adalah label kategori atau jenis keanggotaan dari objek. Ini adalah informasi klasifikasi yang menunjukkan keberadaan objek dalam kategori tertentu, seperti 0 : kelas 'Rice Cammeo' atau 1 : kelas 'Rice Osmancik'. Jumlah data untuk Cammeo adalah 1630, dan jumlah data untuk kelas Osmancik adalah 2180.")
 
     st.write("### SUMBER DATASET UCI")
-    st.write("Sumber dataset rice cammeo and osmancik")
+    st.write("Sumber dataset rice cammeo and osmancik.")
     st.write("https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik")
 
     st.write("### SOURCE CODE APLIKASI DI GOOGLE COLABORATORY")
