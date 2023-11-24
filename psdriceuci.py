@@ -27,6 +27,18 @@ with dataset_description:
     st.write("- Extent atau Luas : Extent adalah rasio antara luas objek dan luas kotak terkecil yang dapat mengelilingi objek. Nilai 1 menunjukkan objek yang mengisi kotak dengan sempurna, sementara nilai yang lebih rendah menunjukkan objek yang mungkin memiliki bentuk yang lebih tidak teratur. Data yang terkait dengan fitur ini memiliki tipe data numerik.")
     st.write("- Class atau Kelas : Kelas adalah label kategori atau jenis keanggotaan dari objek. Ini adalah informasi klasifikasi yang menunjukkan keberadaan objek dalam kategori tertentu, seperti 0 : kelas 'Rice Cammeo' atau 1 : kelas 'Rice Osmancik'. Jumlah data untuk Cammeo adalah 1630, dan jumlah data untuk kelas Osmancik adalah 2180.")
 
+    st.write("### SUMBER DATASET UCI")
+    st.write("Sumber dataset rice cammeo and osmancik")
+    st.write("https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik")
+
+    st.write("### SOURCE CODE APLIKASI DI GOOGLE COLABORATORY")
+    st.write("Code dari dataset rice cammeo and osmancik yang diiunputkan ada di google colaboratory di bawah.")
+    st.write("https://colab.research.google.com/drive/1Ch4RqIOTLTu2H0yVwvfzs6859N5RsH51?usp=sharing")
+
+    st.write("### SOURCE CODE APLIKASI DI GITHUB")
+    st.write("Code dari dataset rice cammeo and osmancik yang diiunputkan ada di GitHub di bawah.")
+    st.write("https://github.com/NabilaAtiraQurratulAini/PSD-RICE.git")
+
 with data_file:
     st.write("### DATA RICE CAMMEO & OSMANCIK")
     st.write("Data")
